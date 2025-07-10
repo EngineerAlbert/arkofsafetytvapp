@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ark of Safety TV - Live</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: #fff;
+      font-family: Arial;
+    }
+    video {
+      width: 90%;
+      max-width: 800px;
+      border: 5px solid #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #000;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ark of Safety TV - Live Stream</h1>
+  <video id="video" controls autoplay>
+    <source src="https://live.nixsat.com/play/arkofsafetytv/index.m3u8" type="application/x-mpegURL">
+    Your browser does not support the video tag.
+  </video>
+</body>
+</html>
